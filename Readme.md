@@ -11,9 +11,11 @@ To run any code sample located in the dist dir (e.g. fatarrow.js), run the follo
 ```node dist/fatarrow.js```
 
 To run a sample Angular/TypeScript app that uses jQueryUI do the following:
- ```npm install live-server -g ```
- ```cd src/hello-world-ts-jquery ```
- ```live-server```
+ ```
+ npm install live-server -g 
+ cd src/hello-world-ts-jquery 
+ live-server
+ ```
 
 
 
