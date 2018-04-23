@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "description": "TypeScript Essentials",
   "scripts": {
-    "tsc": "tsc -version && tsc -w",
+    "tsc": "tsc",
     "tslint": "tslint"
   },
   "author": "Yakov Fain",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "@types/jquery": "^2.0.41",
-    "@types/jqueryui": "^1.11.32",
-    "typescript": "^2.4.0",
-    "tslint": "^5.3.2"
+    "@types/jquery": "^3.3.1",
+    "@types/jqueryui": "^1.12.2",
+    "typescript": "^2.8.3",
+    "tslint": "^5.9.1"
   }
 }
