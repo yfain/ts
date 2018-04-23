@@ -2,7 +2,7 @@
         "outDir": "./dist",
         "baseUrl": "src",
         "sourceMap": false,
-        "noEmitOnError": false,
+        "noEmitOnError": true,
          "module": "commonjs",
         "moduleResolution": "node",
         "experimentalDecorators": true,

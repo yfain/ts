@@ -2,7 +2,7 @@ class Person {
     name: string;
 }
 
-class Employee extends Person{
+class Employeee extends Person{
     department: number;
 }
 
@@ -11,8 +11,8 @@ class Animal {
     breed: string;
 }
 
-let workers: Array<Person> =[];
+let myWorkers: Array<Person> = [ ];
 
-workers[0] = new Person();
-workers[1] = new Employee();
-//workers[2] = new Animal();
+myWorkers[0] = new Person();
+myWorkers[1] = new Employeee();
+//myWorkers[2] = new Animal();
